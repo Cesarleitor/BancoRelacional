@@ -2,9 +2,9 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import modelo.basico.Usuario;
+import modelo.basico.Usurious;
 
-public class NovoUsuario {
+public class NovoUsurious {
 
     public static void main(String[] args) {
 
@@ -12,10 +12,10 @@ public class NovoUsuario {
                 .createEntityManagerFactory("jpa");
         EntityManager em = emf.createEntityManager();
 
-        Usuario novoUsuario = new Usuario("Adriana", "adriana@gmail.com");
+        Usurious novoUsurious = new Usurious("Adriana", "adriana@gmail.com");
 
         em.getTransaction().begin();
-        em.persist(novoUsuario);
+        em.persist(novoUsurious);
         em.getTransaction().commit();
 
         em.clear();
