@@ -1,4 +1,4 @@
-package teste;
+package teste.basico;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
