@@ -3,7 +3,8 @@ package teste.consulta;
 import infra.DAO;
 import modelo.consulta.NotaFilme;
 
-import java.util.Date;
+
+
 
 public class ObterMediaFilmes {
 

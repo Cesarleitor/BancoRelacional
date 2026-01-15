@@ -13,9 +13,7 @@ public class AlunoBolsista extends Aluno{
 
     }
 
-    public AlunoBolsista(double valorBolsa) {
-        this.valorBolsa = valorBolsa;
-    }
+
 
     public AlunoBolsista(Long matricula, String nome, double valorBolsa) {
         super(matricula, nome);
